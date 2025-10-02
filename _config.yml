@@ -1,0 +1,20 @@
+# _config.yml (starter)
+title: "My Company"
+email: "info@mycompany.ca"
+remote_theme: "mmistakes/minimal-mistakes"   # uses latest stable
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Basic navigation
+navigation:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Services"
+    url: /services/
+  - title: "Team"
+    url: /team/
+  - title: "Contact"
+    url: /contact/
