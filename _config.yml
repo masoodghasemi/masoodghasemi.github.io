@@ -1,6 +1,6 @@
 # _config.yml (starter)
-title: "My Company"
-email: "info@mycompany.ca"
+title: "Flipwise renovations"
+email: "info@flipwisereno.com"
 remote_theme: "mmistakes/minimal-mistakes"   # uses latest stable
 plugins:
   - jekyll-remote-theme
