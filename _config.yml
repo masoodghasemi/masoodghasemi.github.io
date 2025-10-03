@@ -1,13 +1,20 @@
-# _config.yml (starter)
-title: "Flipwise renovations"
+title: "Flipwise Reno"
 email: "info@flipwisereno.com"
+description: "Reliable renovation solutions."
+baseurl: "" 
+url: "https://flipwisereno.com"
+
 remote_theme: "mmistakes/minimal-mistakes"
+
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-include-cache
 
-# Basic navigation
+markdown: kramdown
+permalink: /:title/
+
+# Navigation menu
 navigation:
   - title: "Home"
     url: /
@@ -19,3 +26,20 @@ navigation:
     url: /team/
   - title: "Contact"
     url: /contact/
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+
+author:
+  name: Flipwise Reno
+  email: info@flipwisereno.com
