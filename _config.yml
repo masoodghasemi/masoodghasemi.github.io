@@ -44,3 +44,11 @@ defaults:
 author:
   name: Flipwise Reno
   email: info@flipwisereno.com
+
+# Force include all theme layout files
+include:
+  - _layouts
+  - _includes
+  - _sass
+  - assets
+
