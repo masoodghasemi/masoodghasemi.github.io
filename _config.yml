@@ -5,6 +5,7 @@ baseurl: ""
 url: "https://flipwisereno.com"
 
 # remote_theme: "mmistakes/minimal-mistakes"
+theme: null
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
